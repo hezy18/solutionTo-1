@@ -37,6 +37,9 @@ Wand==0.5.6
 wcwidth==0.1.7
 zipp==0.5.2
 
+
 运行操作：
 205行路径为要所读文件夹
 208行路径为新建文件夹
+
+![wordcloud.jpg](https://i.loli.net/2019/08/23/a4STwhO6qU81ipM.jpg)
