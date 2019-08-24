@@ -218,7 +218,7 @@ def main():
 
     # 读取txt得到词汇统计dict
     newfiles_array = funfolder(txt_folder)
-    files_dic = []
+    files_dic = [] # 生成语料库
     for file_path in newfiles_array:
         file = readtxt(file_path)
         word_dic = count_word(file)
@@ -232,7 +232,7 @@ def main():
 
     i = 0
     for file in files_dic:
-        tf_idf = file
+        tf_idf = count_tfidf(file, files_dic, newfiles_array)
         wordsCnt = collections.Counter(tf_idf)
         files_path = newfiles_array[i]
         print(files_path)
@@ -244,7 +244,6 @@ def main():
             files_dic5 +=(wordsCnt)
         elif month is 6:
             files_dic6 +=(wordsCnt)
-            print("yes")
         elif month is 7:
            files_dic7 +=(wordsCnt)
         elif month is 8:
