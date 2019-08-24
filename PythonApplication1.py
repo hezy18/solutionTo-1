@@ -256,5 +256,6 @@ def main():
     word_cloud(files_dic6,6)
     word_cloud(files_dic7,7)
     word_cloud(files_dic8,8)
+
 if __name__ == '__main__':
     main()
