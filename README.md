@@ -93,8 +93,7 @@ zipp==0.5.2
 </br>第208行路径为新建文件夹的路径
 ### 2、所用相对路径：
 &emsp;&emsp;在与py文件同级文件夹下需要一张图片作为词云背景图，这里使用了'wordcloud.jpg'（即下图所示小熊图案），该选项可以在源代码第189行进行修改
-</br> 词云背景图：
-![wordcloud.jpg](https://i.loli.net/2019/08/23/a4STwhO6qU81ipM.jpg)
+</br> 词云背景图：https://i.loli.net/2019/08/23/a4STwhO6qU81ipM.jpg
 
 ## 三、选题
 #1	AI技术趋势分析与展示
