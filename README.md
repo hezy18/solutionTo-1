@@ -1,6 +1,6 @@
 # solutionTo-1
 
-create by Alin, hezy18
+created by Alin, hezy18
 
 ## 一、运行环境
 python3.7
